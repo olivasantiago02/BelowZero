@@ -1,0 +1,73 @@
+/* styles.css */
+
+/* Navbar Styles */
+.navbar {
+    background-color: burlywood; /* Negro */
+  }
+  
+  .navbar-brand img {
+    height: 40px; /* Altura del logo */
+  }
+  
+  .navbar-nav .nav-link {
+    font-size: 18px; /* Tamaño de la fuente de los enlaces */
+  }
+
+  body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .subscription-section {
+    position: relative;
+  }
+  
+  .subscription-video {
+    width: 100%;
+    height: auto;
+  }
+  
+  .subscription-form {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #000;
+    color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+  }
+  
+  .subscription-form h2 {
+    margin-bottom: 20px;
+  }
+  
+  .subscription-form label {
+    display: block;
+    margin-bottom: 8px;
+  }
+  
+  .subscription-form input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 16px;
+  }
+  
+  .subscription-form button {
+    background-color: #ff0000;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  /* Media Query para dispositivos con un ancho máximo de 768px (tablet y celular) */
+  @media (max-width: 768px) {
+    .subscription-form {
+      width: 80%;
+    }
+  }
+  
+
